@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Amaranth;
+    src: url(fonts/Amaranth-Regular.otf);
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(fonts/Quicksand-Regular.otf);
+}
+
+@font-face {
+    font-family: Amanda;
+    src: url(fonts/Amanda.ttf);
+}
+
+@font-face {
+    font-family: AsemKandis;
+    src: url(fonts/AsemKandis.otf);
+}
+
+@font-face {
+    font-family: Airin;
+    src: url(fonts/Airin.ttf);
+}
+
+.AsemKandis {
+    font-family: AsemKandis;
+}
+
+.Airin {
+    font-family: Airin;
+}
+
+.Amanda {
+    font-family: Amanda;
+}
+
+.Amaranth {
+    font-family: Amaranth;
+}
+
+.Quicksand {
+    font-family: Quicksand;
+}
+
+body {
+    font-family: Quicksand;
+}
+
+section.hero {
+    background: #fff url(../images/bg.jfif) no-repeat center center fixed;
+    background-size: auto;
+}
+
+.name {
+    font-family: Airin;
+    color: #fff;
+    font-size: 7rem;
+}
+
+.profession {
+    color: #eee;
+    font-size: 2rem;
+}
+
+dt {
+    font-weight: bold;
+    /* font-size: 17px; */
+    margin: 10px 0px 0px 0px;
+    /* padding: 3px; */
+}
+dd {
+    /* font-size: 14px; */
+    padding: 5px;
+}
+p {
+    /* text-indent: 15px; */
+    font-family: Quicksand;
+    text-align: justify;
+    padding: 5px;
+}
+
+.left-side {
+    border-right: 1px dashed #fff;
+}
+.right-side {
+    border-left: 1px dashed #fff;
+}
+
+.skill-label {
+    font-family: Quicksand;
+    font-weight: bold;
+}
+
+span.tag {
+    margin: 2px;
+}
