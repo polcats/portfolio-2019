@@ -51,9 +51,13 @@ body {
     font-family: Quicksand;
 }
 
-section.hero {
-    /* background: #fff url(../images/bg.jfif) no-repeat center center fixed; */
-    /* background-size: auto; */
+/* section.hero {
+    background: #fff url(../images/bg.jfif) no-repeat center center fixed;
+    background-size: auto;
+} */
+
+section.hero span {
+    font-weight: bolder;
 }
 
 .name {
@@ -69,26 +73,15 @@ section.hero {
 
 dt {
     font-weight: bold;
-    /* font-size: 17px; */
     margin: 10px 0px 0px 0px;
-    /* padding: 3px; */
 }
 dd {
-    /* font-size: 14px; */
     padding: 5px;
 }
 p {
-    /* text-indent: 15px; */
     font-family: Quicksand;
     text-align: justify;
     padding: 5px;
-}
-
-.left-side {
-    border-right: 1px dashed #fff;
-}
-.right-side {
-    border-left: 1px dashed #fff;
 }
 
 .skill-label {
