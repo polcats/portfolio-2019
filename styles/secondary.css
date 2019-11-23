@@ -95,8 +95,7 @@ span.tag {
 }
 
 figure img {
-    border-radius: 1000px;
-    /* border: 1px solid #fff; */
+    border-radius: 100px;
 }
 
 img.pulse:hover {
@@ -118,6 +117,5 @@ img.pulse:hover {
 
 .columns,
 .card {
-    /* border: 1px solid #fff; */
     border-radius: 10px;
 }
