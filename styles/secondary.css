@@ -80,6 +80,9 @@ section.hero span {
 /* END HERO */
 
 /* GENERAL CONTENT */
+section.section h1.title {
+    font-size: 5rem !important;
+}
 dt {
     font-weight: bold;
     margin: 10px 0px 0px 0px;
@@ -133,6 +136,12 @@ img.pulse:hover {
     border-radius: 10px;
 }
 /* END ROUNDED BOXES */
+
+/* LIST STYLE */
+section.section ul {
+    list-style: square;
+    margin-left: 2em;
+}
 
 /* BACK TO TOP */
 #to-top {
