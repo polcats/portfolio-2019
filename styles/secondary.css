@@ -80,6 +80,7 @@ section.hero span {
     color: #eee;
     font-size: 2rem;
 }
+
 /* END HERO */
 
 /* GENERAL CONTENT */
@@ -167,3 +168,23 @@ section.section ul {
     z-index: 99;
 }
 /* END BACK TO TOP */
+
+/* TEXT RESPONSIVENESS IN SMALLER DEVICES */
+
+@media screen and (max-width: 450px) {
+    .name {
+        font-size: 5rem;
+        margin-top: 20vh;
+    }
+
+    .profession {
+        font-size: 2rem;
+        height: 15vh;
+    }
+
+    section.section h1.header {
+        font-size: 3.5rem !important;
+    }
+}
+
+/* END TEXT RESP.. */
