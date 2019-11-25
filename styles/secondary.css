@@ -111,7 +111,7 @@ figure img {
 }
 /* END GENERAL CONTENT */
 
-/* PULSE EFFECT */
+/* ANIMATIONS  */
 img.pulse:hover {
     animation: pulse 1s infinite;
     animation-timing-function: linear;
@@ -128,7 +128,19 @@ img.pulse:hover {
         transform: scale(1);
     }
 }
-/* END PULSE EFFECT */
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fade-in {
+    animation: fadein 0.8s;
+}
+/* END ANIMATIONS */
 
 /* ROUNDED BOXES */
 .columns,
@@ -151,3 +163,4 @@ section.section ul {
     right: 30px;
     z-index: 99;
 }
+/* END BACK TO TOP */

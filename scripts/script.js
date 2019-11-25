@@ -13,7 +13,6 @@ function scrollFunction() {
 }
 
 var subtitles = [
-    'A Research and Development Engineer',
     'Sometimes a computer repairman.',
     'Almost the typical programmer.',
     'Technically a cat person..',
@@ -21,12 +20,16 @@ var subtitles = [
     "Last name's a language!",
     'Creative.',
     'Out of mana!',
-    'Bleep blop..'
+    'Bleep blop..',
+    'A Research and Development Engineer'
 ];
 
 var iter = 0;
 setInterval(function() {
-    document.getElementsByClassName('profession')[0].innerHTML = subtitles[iter];
+    var subtitle = document.createElement('h1');
+    subtitle.setAttribute('class', 'subtitle profession fade-in');
+    subtitle.innerHTML = subtitles[iter];
+    document.getElementsByClassName('profession')[0].replaceWith(subtitle);
     ++iter;
     iter %= subtitles.length;
 }, 2000);
