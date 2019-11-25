@@ -47,8 +47,16 @@
 
 /* GENERAL */
 ::selection {
-    background: #111;
+    background: #000;
 }
+/* .card-content {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+} */
 html {
     scroll-behavior: smooth;
 }
@@ -58,11 +66,6 @@ body {
 /* END GENERAL */
 
 /* HERO */
-/* section.hero {
-    background: #fff url(../images/bg.jfif) no-repeat center center fixed;
-    background-size: auto;
-} */
-
 section.hero span {
     font-weight: bolder;
 }
@@ -113,7 +116,7 @@ figure img {
 
 /* ANIMATIONS  */
 img.pulse:hover {
-    animation: pulse 1s infinite;
+    animation: pulse 0.8s infinite;
     animation-timing-function: linear;
 }
 
