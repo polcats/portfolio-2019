@@ -113,6 +113,17 @@ span.tag {
 figure img {
     border-radius: 100px;
 }
+
+section.section ul {
+    list-style: square;
+    margin-left: 50px;
+}
+
+.item i {
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
 /* END GENERAL CONTENT */
 
 /* ANIMATIONS  */
@@ -152,12 +163,6 @@ img.pulse:hover {
     border-radius: 10px;
 }
 /* END ROUNDED BOXES */
-
-/* LIST STYLE */
-section.section ul {
-    list-style: square;
-    margin-left: 2em;
-}
 
 /* BACK TO TOP */
 #to-top {
