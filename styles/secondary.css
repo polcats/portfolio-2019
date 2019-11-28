@@ -70,6 +70,10 @@ section.hero span {
     font-weight: bolder;
 }
 
+section.hero {
+    height: 100vh;
+}
+
 .name {
     font-family: Airin;
     color: #fff;
@@ -79,6 +83,10 @@ section.hero span {
 .profession {
     color: #eee;
     font-size: 2rem;
+}
+
+#learn-more {
+    margin-top: 10vh;
 }
 
 /* END HERO */
@@ -189,6 +197,26 @@ img.pulse:hover {
 
     section.section h1.header {
         font-size: 3.5rem !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .name {
+        font-size: 4.5rem;
+        margin-top: 20vh;
+    }
+    .profession {
+        font-size: 1.5rem;
+        height: 10vh;
+    }
+    #learn-more {
+        margin-top: 2vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    section.hero .container {
+        margin-top: 10vh;
     }
 }
 
