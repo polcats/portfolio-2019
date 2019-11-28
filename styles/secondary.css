@@ -49,14 +49,19 @@
 ::selection {
     background: #000;
 }
-/* .card-content {
+.name,
+.profession,
+#pipe,
+#learn-more,
+#to-top {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-} */
+}
+
 html {
     scroll-behavior: smooth;
 }
