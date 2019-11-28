@@ -63,6 +63,10 @@ html {
 body {
     font-family: Quicksand;
 }
+section.section,
+section.hero {
+    min-height: 100vh !important;
+}
 /* END GENERAL */
 
 /* HERO */
@@ -70,9 +74,9 @@ section.hero span {
     font-weight: bolder;
 }
 
-section.hero {
+/* section.hero {
     height: 100vh;
-}
+} */
 
 .name {
     font-family: Airin;
@@ -214,6 +218,9 @@ img.pulse:hover {
     }
     #pipe {
         display: none;
+    }
+    div.footer p:first-child strong {
+        font-size: 1.2rem;
     }
 }
 
