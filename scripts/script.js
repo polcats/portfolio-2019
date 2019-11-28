@@ -33,3 +33,7 @@ setInterval(function() {
     ++iter;
     iter %= subtitles.length;
 }, 2000);
+
+function goTo(location) {
+    window.location.href = location;
+}

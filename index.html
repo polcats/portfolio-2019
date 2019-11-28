@@ -13,7 +13,7 @@
             <div class="hero-body">
                 <div class="container has-text-centered has-text-light">
                     <h2 class="title name">
-                        <a href="#about" class="has-text-light" title="Click to learn more">
+                        <a class="has-text-light" title="Click to learn more" onclick="goTo('#about')">
                             Paul Catalan
                         </a>
                     </h2>
@@ -41,6 +41,9 @@
                         </a>
                     </figure>
                 </div>
+
+                <div class="is-block has-text-centered" id="learn-more"><a class=" has-text-light is-size-3" onclick="goTo('#about')">Learn More</a>
+
             </div>
         </section>
 
@@ -247,7 +250,7 @@
             <p class="has-text-centered is-size-4"><strong class="has-text-light">Through the looking glass..</strong></p>
             <p class="has-text-centered"><strong class="has-text-light">Copyright &copy; Paul Catalan 2019</strong></p>
         </div>
-        <a id="to-top" title="Back to top" onclick="window.location.href='#'">
+        <a id="to-top" title="Back to top" onclick="goTo('#')">
             <img src="images/to-top.png" class="pulse" alt="Back to top" />
         </a>
         <script src="scripts/script.js"></script>
