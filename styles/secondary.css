@@ -53,7 +53,9 @@
 .profession,
 #pipe,
 #learn-more,
-#to-top {
+#to-top,
+.title.header,
+.footer {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
