@@ -53,6 +53,7 @@
 .profession,
 #pipe,
 #learn-more,
+#figures,
 #to-top,
 .title.header,
 .footer {
@@ -94,6 +95,10 @@ section.hero span {
 .profession {
     color: #eee;
     font-size: 2rem;
+}
+
+#contact {
+    margin-bottom: 18px !important;
 }
 
 #learn-more {
@@ -226,6 +231,12 @@ img.pulse:hover {
     #pipe {
         display: none;
     }
+
+    #about p,
+    #skills p {
+        text-align: left;
+    }
+
     div.footer p:first-child strong {
         font-size: 1.2rem;
     }
