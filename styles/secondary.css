@@ -82,14 +82,11 @@ section.hero span {
     font-weight: bolder;
 }
 
-/* section.hero {
-    height: 100vh;
-} */
-
 .name {
     font-family: Airin;
     color: #fff;
     font-size: 10rem;
+    font-weight: normal;
 }
 
 .profession {
@@ -134,6 +131,14 @@ span.tag {
     font-size: 1rem;
 }
 
+figure a {
+    color: #fff;
+    font-size: 0px;
+}
+figure a:hover {
+    color: #999;
+}
+
 figure img {
     border-radius: 100px;
 }
@@ -141,6 +146,10 @@ figure img {
 section.section ul {
     list-style: square;
     margin-left: 50px;
+}
+
+section.section ul li {
+    text-align: justify;
 }
 
 .item i {
@@ -214,6 +223,23 @@ img.pulse:hover {
     section.section h1.header {
         font-size: 3.5rem !important;
     }
+
+    section.section ul {
+        margin-left: 10px;
+    }
+
+    section.section ul li {
+        margin-bottom: 10px;
+    }
+
+    #about p,
+    #skills p {
+        margin-bottom: 15px;
+    }
+
+    figure a {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -230,11 +256,6 @@ img.pulse:hover {
     }
     #pipe {
         display: none;
-    }
-
-    #about p,
-    #skills p {
-        text-align: left;
     }
 
     div.footer p:first-child strong {
