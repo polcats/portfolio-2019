@@ -143,6 +143,10 @@ figure img {
     border-radius: 100px;
 }
 
+section.section .date::before {
+    content: ", ";
+}
+
 section.section ul {
     list-style: square;
     margin-left: 50px;
@@ -205,6 +209,7 @@ img.pulse:hover {
     right: 30px;
     z-index: 99;
 }
+
 /* END BACK TO TOP */
 
 /* TEXT RESPONSIVENESS IN SMALLER DEVICES */
@@ -230,6 +235,10 @@ img.pulse:hover {
 
     section.section ul li {
         margin-bottom: 10px;
+    }
+
+    section.section .date::before {
+        content: "";
     }
 
     #about p,
