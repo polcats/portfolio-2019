@@ -19,8 +19,6 @@ var subtitles = [
     "Loves to read.",
     "Last name's a language!",
     "Creative.",
-    "Out of mana!",
-    "Bleep blop..",
     "Research and Development Engineer"
 ];
 
