@@ -13,9 +13,11 @@ function scrollFunction() {
 }
 
 var subtitles = [
-    "Sometimes a computer repairman.",
+    "A web-design hobbyist.",
+    "Loves to visualize algorithms.",
+    "Interested in Machine Learning.",
     "Almost the typical programmer.",
-    "Technically a cat person..",
+    "Technically a 'cat' person..",
     "Loves to read.",
     "Last name's a language!",
     "Creative.",
