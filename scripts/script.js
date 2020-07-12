@@ -1,6 +1,6 @@
 var mybutton = document.getElementById("to-top");
 
-window.onscroll = function() {
+window.onscroll = function () {
     scrollFunction();
 };
 
@@ -21,11 +21,11 @@ var subtitles = [
     "Loves to read.",
     "Last name's a language!",
     "Creative.",
-    "Research and Development Engineer"
+    "Software Engineer",
 ];
 
 var iter = 0;
-setInterval(function() {
+setInterval(function () {
     var subtitle = document.createElement("h1");
     subtitle.setAttribute("class", "subtitle profession fade-in");
     subtitle.innerHTML = subtitles[iter];
