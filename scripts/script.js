@@ -13,15 +13,12 @@ function scrollFunction() {
 }
 
 var subtitles = [
-    "A web-design hobbyist.",
-    "Loves to visualize algorithms.",
-    "Interested in Machine Learning.",
-    "Almost the typical programmer.",
-    "Technically a 'cat' person..",
-    "Loves to read.",
-    "Last name's a language!",
-    "Creative.",
     "Software Engineer",
+    "A web-design hobbyist.",
+    "A mobile app developer 📱",
+    "Ex-C++ Developer 👽",
+    "Loves to visualize algorithms",
+    "Yes, I like dark themes",
 ];
 
 var iter = 0;
