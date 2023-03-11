@@ -21,15 +21,15 @@ var subtitles = [
     "Yes, I like dark themes",
 ];
 
-var iter = 0;
-setInterval(function () {
-    var subtitle = document.createElement("h1");
-    subtitle.setAttribute("class", "subtitle profession fade-in");
-    subtitle.innerHTML = subtitles[iter];
-    document.getElementsByClassName("profession")[0].replaceWith(subtitle);
-    ++iter;
-    iter %= subtitles.length;
-}, 2000);
+// var iter = 0;
+// setInterval(function () {
+//     var subtitle = document.createElement("h1");
+//     subtitle.setAttribute("class", "subtitle profession fade-in");
+//     subtitle.innerHTML = subtitles[iter];
+//     document.getElementsByClassName("profession")[0].replaceWith(subtitle);
+//     ++iter;
+//     iter %= subtitles.length;
+// }, 2000);
 
 function goTo(location) {
     window.location.href = location;
